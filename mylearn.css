@@ -1,0 +1,110 @@
+#bsc_page {
+width: 1024px;
+margin: 0 auto;
+position: relative;    
+}
+
+#top_navbar {
+width : 97%;
+height :22%;
+background: -webkit-gradient(linear,left top,left bottom,from(rgb(119,0,126)),to(rgb(63,0,57)));
+background: -moz-linear-gradient(top,rgb(119,0,126),rgb(63,0,57));
+-moz-border-radius: 22px;
+border-radius: 22px;
+-moz-box-shadow: 10px 10px 7px #888;
+-webkit-box-shadow: 10px 10px 7px #888;
+box-shadow: 10px 10px 7px #888;
+float:left;
+color: white;
+display: block;
+margin-left:10px;
+}
+
+
+#top_navbar ul {
+    list-style: none;
+    margin-left:110px;
+    padding: 0;
+    width: 97%;
+    float: left;
+}
+
+#top_navbar ul li {
+    width:20%;
+    line-height:100%;
+    float:left;
+    color:white;
+}
+
+#top_navbar ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 120%;
+    font-family: "Helvetica";
+}
+
+
+#bottom_navbar {
+    position : absolute;
+    width : 97%;
+    background: -webkit-gradient(linear,left top,left bottom,from(rgb(119,0,126)),to(rgb(63,0,57)));
+    background: -moz-linear-gradient(top,rgb(119,0,126),rgb(63,0,57));
+    -moz-border-radius: 22px;
+    border-radius: 22px;
+    -moz-box-shadow: 10px 10px 7px #888;
+    -webkit-box-shadow: 10px 10px 7px #888;
+    box-shadow: 10px 10px 7px #888;
+    float:left;
+    color: white;
+    margin-left:10px;
+    margin-top:980px;
+}
+
+#bottom_navbar  ul {
+    width : 97%;
+    float:left;
+    list-style: none;
+    margin-left:110px;
+}
+
+#bottom_navbar  ul li {
+    width : 20%;
+    float:left;
+    font-size: 120%;
+    font-family: "Helvetica";
+}
+
+#now_watching {
+    position:absolute;
+	padding:10px;
+	left:18px;
+	top: 180px;
+	width:180px;
+	background: -webkit-gradient(linear,left top,left bottom,from(rgb(119,0,126)),to(rgb(63,0,57)));
+	background: -moz-linear-gradient(top,rgb(119,0,126),rgb(63,0,57));
+	-moz-border-radius: 22px;
+	border-radius: 22px;
+	text-align:left;
+	overflow:hidden;
+/*    margin-left:-200px;*/
+	-moz-box-shadow: 10px 10px 5px #888;
+	-webkit-box-shadow: 10px 10px 5px #888;
+	box-shadow: 10px 10px 5px #888;
+}
+
+#now_watching {
+    color: white;
+    font-size : 0.8em;
+    font-family: "Helvetica";
+}
+
+#now_watching a{
+    color:white;
+    font-size : 0.72em;
+}
+#now_watching h1 {
+    font-size: 1em;
+}
+a {
+    color : red;
+}
