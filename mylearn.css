@@ -108,8 +108,20 @@ margin-left:10px;
 
 #mediaspace {
     position: absolute;
-    margin-top: 276px;
+    margin-top: 205px;
     margin-left: 300px;
+}
+
+#current_video_share_box{
+    position: absolute;
+    width: 440px;
+    height: 110px;
+    margin-top: 545px;
+    margin-left: 310px;
+    border: 0.1em solid black;
+    -moz-border-radius: 22px;
+	border-radius: 22px;
+	background-color: rgba(119,0,126,0.1);
 }
 a {
     color : red;
