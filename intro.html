@@ -58,6 +58,20 @@
                 </div>
             <!-- end Now Watching -->
             </div>
+            <div id="current_video">
+                <script type='text/javascript' src='http://dm6905kj7qmzs.cloudfront.net/mediaplayer-5.3-viral/swfobject.js'></script>
+                    <div id='mediaspace'>This text will be replaced</div>
+                    <script type='text/javascript'>
+                      var so = new SWFObject('http://dm6905kj7qmzs.cloudfront.net/mediaplayer-5.3-viral/player.swf ','mpl','470','320','9');
+                      so.addParam('allowfullscreen','true');
+                      so.addParam('allowscriptaccess','always');
+                      so.addParam('wmode','opaque');
+                      so.addVariable('file', "3447b54a4add8c1e67359bd46bdaebdd" );
+                      so.addVariable('streamer','rtmp://screencast.code-itch.com/cfx/st');
+                      so.write('mediaspace');
+                    </script>
+            <!-- end current_video -->
+            </div>
             <div id="related_content">
             <!-- end Related Content -->
             </div>

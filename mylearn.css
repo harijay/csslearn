@@ -105,6 +105,12 @@ margin-left:10px;
 #now_watching h1 {
     font-size: 1em;
 }
+
+#mediaspace {
+    position: absolute;
+    margin-top: 276px;
+    margin-left: 300px;
+}
 a {
     color : red;
 }

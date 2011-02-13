@@ -1,0 +1,18 @@
+What is State?
+The video you are watching , the list of search results and the related videos , all have meaning that changes dynamically with respect to each video-
+
+How does youtube do it?
+
+Url - always connected to the video you are watching
+related does not change within  session
+Queue gets populated once you click on a related video
+Related video persists for a session or a trail - does not change with every video watched
+
+
+
+Getting video from code-itch bucket ?
+Host existing video from amazon cdn statically with jeroen player plugged into the css
+
+#1 Download newest jeroen player - version 5.4 downloaded to /Users/hari/csslearn/mediaplayer-5.4
+#2 Get video rtmp from cdn - code-itch
+
