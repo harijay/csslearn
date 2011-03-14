@@ -15,4 +15,27 @@ Host existing video from amazon cdn statically with jeroen player plugged into t
 
 #1 Download newest jeroen player - version 5.4 downloaded to /Users/hari/csslearn/mediaplayer-5.4
 #2 Get video rtmp from cdn - code-itch
+Accomplished the stream of data from code-itch bucket using the syntax:
+
+<div id="current_video">
+     <script type='text/javascript' src='http://dm6905kj7qmzs.cloudfront.net/mediaplayer-5.3-viral/swfobject.js'></script>
+         <div id='mediaspace'>This text will be replaced</div>
+         <script type='text/javascript'>
+           var so = new SWFObject('http://dm6905kj7qmzs.cloudfront.net/mediaplayer-5.4/player.swf ','mpl','470','320','9');
+           so.addParam('allowfullscreen','true');
+           so.addParam('allowscriptaccess','always');
+           so.addParam('wmode','opaque');
+           so.addVariable('file', "3447b54a4add8c1e67359bd46bdaebdd" );
+           so.addVariable('streamer','rtmp://screencast.code-itch.com/cfx/st');
+           so.write('mediaspace');
+         </script>
+ <!-- end current_video -->
+ </div>
+ 
+ 
+ Create view with new template:
+ 1) Make shell dummy template
+ 2) Hook up ORM to django
+ 3) Create view
+ 
 

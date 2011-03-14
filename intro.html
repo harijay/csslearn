@@ -59,19 +59,42 @@
             <!-- end Now Watching -->
             </div>
             <div id="current_video">
-                <script type='text/javascript' src='http://dm6905kj7qmzs.cloudfront.net/mediaplayer-5.3-viral/swfobject.js'></script>
-                    <div id='mediaspace'>This text will be replaced</div>
-                    <script type='text/javascript'>
-                      var so = new SWFObject('http://dm6905kj7qmzs.cloudfront.net/mediaplayer-5.4/player.swf ','mpl','470','320','9');
-                      so.addParam('allowfullscreen','true');
-                      so.addParam('allowscriptaccess','always');
-                      so.addParam('wmode','opaque');
-                      so.addVariable('file', "3447b54a4add8c1e67359bd46bdaebdd" );
-                      so.addVariable('streamer','rtmp://screencast.code-itch.com/cfx/st');
-                      so.write('mediaspace');
-                    </script>
-            <!-- end current_video -->
+                <script src="video.js" type="text/javascript" charset="utf-8"></script>
+
+                  <script type="text/javascript">
+                    // Must come after the video.js library
+
+                    // Add VideoJS to all video tags on the page when the DOM is ready
+                    VideoJS.setupAllWhenReady();
+                      </script>
+                      <!-- Begin VideoJS -->
+                        <div class="video-js-box">
+                          <!-- Using the Video for Everybody Embed Code http://camendesign.com/code/video_for_everybody -->
+                          <video class="video-js" width="640" height="264" controls preload>
+                            <source src="http://bioscreencast.s3.amazonaws.com/1/036ae9da6bdf677689b695d3d646e1d3.webm" type='video/webm; codecs="vp8, vorbis"' />
+
+                            <!-- Flash Fallback. Use any flash video player here. Make sure to keep the vjs-flash-fallback class. -->
+                          </video>
+                          <!-- Download links provided for devices that can't play video in the browser. -->
+                          <p class="vjs-no-video"><strong>Download Video:</strong>
+                            <a href="http://video-js.zencoder.com/oceans-clip.mp4">MP4</a>,
+                            <a href="http://bioscreencast.s3.amazonaws.com/1/036ae9da6bdf677689b695d3d646e1d3.webm">WebM</a>,<br>
+                            <!-- Support VideoJS by keeping this link. -->
+                            <a href="http://videojs.com">HTML5 Video Player</a> by VideoJS
+                          </p>
+                        </div>
+                        <!-- End VideoJS -->
+                <!-- end current_video -->
             </div>
+            
+             <div id="screencast_creator_tag_box">
+                <li>Tag 1</li>
+                <li>Number two</li>
+                <li>Number three tag</li>
+                <li>Also</li>                 
+                <!-- end screencast_tags -->
+                </div>
+                
             <div id="current_video_share_box">
                 <p>Embed_Options<p>
                     <ul>
