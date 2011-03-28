@@ -1,5 +1,5 @@
 #bsc_page {
-width: 1200px;
+width: 1024px;
 margin: 0 auto;
 position: relative;    
 }
@@ -75,7 +75,8 @@ margin-left:10px;
 }
 
 #mediaspace embed{
-    margin-top:-43px;
+    margin-left:100px;
+    margin-top:63px;
 }
 #now_watching {
     position:absolute;
@@ -108,38 +109,51 @@ margin-left:10px;
 
 #mediaspace {
     position: absolute;
-    margin-top: 115px;
-    margin-left: 83px;
+    margin-top: 61px;
+    margin-left: 150px;
+}
+#video_bottom_container {
+position: absolute;
+width : 640px;
+height : 180px;
+background-color:white;
+margin-left:250px;
+margin-top:650px;
+-moz-border-radius: 22px;
+border-radius:22px;
+-moz-box-shadow: 10px 10px 7px 7px #888;
+box-shadow: 7px 7px 7px 7px #888;
+font-family: "Helvetica";
+font-size:11;
+/*border: 0.1em solid black;*/
 }
 #screencast_creator_tag_box {
-    position: absolute;
-    width: 640px;
-    height: 80px;
-    margin-top: 550px;
-    margin-left: 84px;
-    border: 0.1em solid black;
-    -moz-border-radius: 22px;
-	border-radius: 22px;
-	background-color: rgba(119,0,126,0.1);
+    position: relative;
+    margin-left: 50px;
+    margin-top : 20px;
 }
 
-#screencast_creator_tag_box li{
-    margin-top: 12px;
-    margin-left: 84px;
-    float: left;
-    list-style: none;
+#screencast_creator_tag_box a {
+    font-family:"Helvetica";
+    font-size:11;
+    text-decoration: none;
 }
-#current_video_share_box{
-    position: absolute;
-    width: 440px;
-    height: 110px;
-    margin-top: 633px;
-    margin-left: 198px;
-    border: 0.1em solid black;
-    -moz-border-radius: 22px;
-	border-radius: 22px;
-	background-color: rgba(119,0,126,0.1);
+#current_video_share_box {
+margin-top: 25px;
+margin-left: 52px;
 }
+
+#current_video_share_box textarea {
+    position:relative;
+    margin-left:29px;
+    margin-top: 15px;
+    font-size: 55%;
+    border: 0.08em solid black;
+    overflow: hidden;
+    width : 500px;
+    height: 68px;
+}
+
 #related_content {
     position: relative;
     width: 500px;
@@ -180,7 +194,7 @@ margin-left:10px;
     padding-top: 175px;
 }
 
-#video_tags_share_container {
+/*#video_tags_share_container {
     width: 800px;
     height: 800px;
     left:0px;
@@ -192,6 +206,7 @@ margin-left:10px;
     -moz-border-radius: 22px;
     border:0.10em solid gray;
 }
+*/
 a {
-    color : white;
+    color : black;
 }
