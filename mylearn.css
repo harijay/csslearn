@@ -115,7 +115,7 @@ margin-left:10px;
 #video_bottom_container {
 position: absolute;
 width : 640px;
-height : 180px;
+height : 250px;
 background-color:white;
 margin-left:250px;
 margin-top:650px;
@@ -125,6 +125,7 @@ border-radius:22px;
 box-shadow: 7px 7px 7px 7px #888;
 font-family: "Helvetica";
 font-size:11;
+-webkit-box-shadow:7px 7px 7px 7px #888;
 /*border: 0.1em solid black;*/
 }
 #screencast_creator_tag_box {
@@ -146,12 +147,14 @@ margin-left: 52px;
 #current_video_share_box textarea {
     position:relative;
     margin-left:29px;
-    margin-top: 15px;
+    margin-top: 12px;
     font-size: 55%;
-    border: 0.08em solid black;
+    border: 0.08em solid gray;
+    -webkit-border:.08em ;
     overflow: hidden;
     width : 500px;
     height: 68px;
+    resize: none;
 }
 
 #related_content {
