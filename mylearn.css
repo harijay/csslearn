@@ -1,9 +1,31 @@
 #bsc_page {
 width: 1024px;
 margin: 0 auto;
-position: relative;    
+position: relative;
+/*background-color:rgb(55,11,61);*/
+background: -webkit-gradient(linear,left top,left bottom,from(rgb(63,0,57)),to(rgb(0,0,0)));
+background: -moz-linear-gradient(top,rgb(63,0,42),rgb(63,0,57));
+color:black;
+min-height:100%;
 }
 
+#body{
+    height:100%;
+    color:black;
+}
+
+#white_background{
+    background-color:white;
+    position:absolute;
+    width:1024px;
+    height:100%;
+    z-index:-2;
+    clear:both;
+    margin-top:-3px;
+    -moz-border-radius: 22px;
+    border-radius: 22px;
+  /*  border: 1px solid #000000;*/
+}
 #top_navbar {
 width : 97%;
 height :22%;
@@ -46,12 +68,12 @@ margin-left:10px;
 
 #bottom_navbar {
     width : 97%;
-    margin-top:97%;
+    margin-top:93%;
     background: -webkit-gradient(linear,left top,left bottom,from(rgb(119,0,126)),to(rgb(63,0,57)));
     background: -moz-linear-gradient(top,rgb(119,0,126),rgb(63,0,57));
     -moz-border-radius: 22px;
     border-radius: 22px;
-    -moz-box-shadow: 10px 10px 7px #888;
+    -moz-box-shadow: 7px 7px 5px #888;
     -webkit-box-shadow: 10px 10px 7px #888;
     box-shadow: 10px 10px 7px #888;
     float:left;
@@ -168,7 +190,7 @@ margin-left: 52px;
 #related_content_entry {
     position: relative;
     width: 480px;
-    height:110px;
+    height:170px;
     padding-top:10px;
     padding-bottom:10px;
     border:0.08em solid gray;
@@ -197,6 +219,18 @@ margin-left: 52px;
     padding-top: 175px;
 }
 
+#search_box_label{
+font: Helvetica;
+color:black;
+margin-left:227px;
+}
+
+.search_box{
+margin-top:154px;
+width:500px;
+}
+
+
 /*#video_tags_share_container {
     width: 800px;
     height: 800px;
@@ -212,4 +246,29 @@ margin-left: 52px;
 */
 a {
     color : black;
+}
+
+.button{
+display: inline:block;
+cursor: pointer;
+outline:none;
+text-align:center;
+text-decoration:none;  
+font:14px/100% Arial , Helvetica, sans-serif;
+padding:.5em 2em .55em;
+text-shadow: 0 1px 1px rgba(0,0,0,.3);
+-webkit-border-radius: .5em;
+-moz-border-radius: .5em;
+border-radius: .5em; 
+-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+box-shadow: 0 1px 2px rgba(0,0,0,.2);
+margin-left: 25px;
+clear:both;
+}
+
+#no_videos_for_tag_msg{
+position:absolute;
+margin-top:132px;
+margin-left:352px;
 }
