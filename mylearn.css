@@ -222,7 +222,7 @@ margin-left: 52px;
 #search_box_label{
 font: Helvetica;
 color:black;
-margin-left:227px;
+margin-left:152px;
 }
 
 .search_box{
@@ -270,5 +270,5 @@ clear:both;
 #no_videos_for_tag_msg{
 position:absolute;
 margin-top:132px;
-margin-left:352px;
+margin-left:295px;
 }
