@@ -270,8 +270,13 @@ width:500px;
     border:0.10em solid gray;
 }
 */
+
 a {
     color : black;
+}
+#video_tags_share_container {
+position:relative;
+margin-top:0px;
 }
 
 #video_tags_share_container embed{
@@ -303,9 +308,10 @@ margin-top:132px;
 margin-left:295px;
 }
 
+/*
 object {
 margin-left: 250px;
 margin-top: 120px;
-}
+}*/
 
 
